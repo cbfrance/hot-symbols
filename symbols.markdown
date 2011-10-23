@@ -55,7 +55,7 @@ amenity= police
 amenity= post_office
 amenity= prison
 amenity= townhall
-landuse=military
+
 office=government
 office=newspaper
 office=ngo
@@ -82,6 +82,7 @@ sport=tennis
 sport=equestrian
 landuse=landfill
 leisure=playground
+landuse=military
 man_made: tower
 bridge: yes
 

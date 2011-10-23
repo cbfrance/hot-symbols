@@ -66,3 +66,72 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
+
+/* line 72, ../../compass/sass/screen.scss */
+body {
+  font-family: georgia, serif;
+}
+/* line 10, ../../compass/sass/screen.scss */
+body h1, body h2 {
+  font-size: 20px;
+  float: left;
+  clear: both;
+  width: 100%;
+  padding: 10px;
+}
+/* line 18, ../../compass/sass/screen.scss */
+body h2 {
+  border-bottom: 1px solid black;
+}
+/* line 22, ../../compass/sass/screen.scss */
+body div.item {
+  float: left;
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 11px;
+  border: 2px solid #c3c3c3;
+  overflow: hidden;
+  text-align: center;
+}
+/* line 31, ../../compass/sass/screen.scss */
+body div.item:hover {
+  overflow: visible;
+}
+/* line 35, ../../compass/sass/screen.scss */
+body div.item img {
+  width: 30px;
+  padding: 5px;
+  margin: 0 auto;
+  display: block;
+}
+/* line 41, ../../compass/sass/screen.scss */
+body div.item a {
+  float: left;
+  clear: both;
+  width: 100%;
+}
+/* line 48, ../../compass/sass/screen.scss */
+body div.landuse {
+  border-color: green;
+}
+/* line 51, ../../compass/sass/screen.scss */
+body div.building {
+  border-color: black;
+}
+/* line 55, ../../compass/sass/screen.scss */
+body div.amenity {
+  border-color: red;
+}
+/* line 59, ../../compass/sass/screen.scss */
+body div.office {
+  border-color: orange;
+}
+/* line 63, ../../compass/sass/screen.scss */
+body div.shop {
+  border-color: pink;
+}
+/* line 67, ../../compass/sass/screen.scss */
+body div.sport {
+  border-color: blue;
+}

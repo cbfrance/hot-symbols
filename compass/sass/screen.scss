@@ -5,14 +5,70 @@
 
 @import "compass/reset";
 
-h1 {
-  font-size: 20px;
-}
+@mixin layout($direction) {
+  font-family: georgia, serif;
+  h1, h2 {
+    font-size: 20px;
+    float: $direction;
+    clear: both;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  h2 {
+    border-bottom: 1px solid black;
+  }
 
-div.building {
-  border: 1px solid black;
-}
+  div.item {
+    float: $direction;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 11px;
+    border: 2px solid #c3c3c3;
+    overflow: hidden;
+    text-align: center;
+    &:hover {
+      overflow: visible;
+    }
+    
+    img {
+      width: 30px;
+      padding: 5px;
+      margin: 0 auto;
+      display: block;
+    }
+    a {
+      float: left;
+      clear: both;
+      width: 100%;
+    }
+  }
 
-div {
-  border: 1px solid pink;
+  div.landuse {
+    border-color: green;
+  }
+  div.building {
+    border-color: black;
+  }
+  
+  div.amenity {
+    border-color: red;
+  }
+  
+  div.office {
+    border-color: orange;
+  }
+  
+  div.shop {
+    border-color: pink;
+  }
+  
+  div.sport {
+    border-color: blue;
+  }
+  
+}
+body {
+  @include layout(left);
 }

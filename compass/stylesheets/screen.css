@@ -70,14 +70,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* line 8, ../sass/screen.scss */
 h1 {
   font-size: 20px;
+  background: pink;
 }
 
-/* line 12, ../sass/screen.scss */
+/* line 13, ../sass/screen.scss */
 div.building {
   border: 1px solid black;
 }
 
-/* line 16, ../sass/screen.scss */
+/* line 17, ../sass/screen.scss */
 div {
   border: 1px solid pink;
 }
