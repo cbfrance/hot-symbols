@@ -1,3 +1,4 @@
+
 ### Structural indicators
 building:structure=confined_masonry
 building:structure=plastered
@@ -5,7 +6,7 @@ building:structure=reinforced_masonry
 building:structure=unreinforced_masonry
 building:roof=weed
 building:roof=asbestos
-building:roof=tile (Genteng)
+building:roof=tile
 building:roof=wood
 building:roof=tin
 building:condition=excellent
