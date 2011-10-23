@@ -6,6 +6,7 @@ Minimalist "civic" tag set for indonesia.
 - A refinement (subset) of the indonesian tagset by Chris Blow
 - A condensed edition of the already-refined set by Chris Blow, which lend themselves to symbology
 - A list of some undocumented tags and keys from the Indonesia undocumented tags list
+- production notes and links to relevant aspects of OSM integration of SVG files
 
 Related: 
 
@@ -802,3 +803,66 @@ land=
    HKM (Community forest Management)
    HTI (Industrial forest plantations)
    Hutan Keluarga (Family forest)
+   
+
+
+
+<!-- ==================== -->
+<!-- = Production notes = -->
+<!-- ==================== -->
+
+flat icon style
+single colour, no shading
+follow color themes
+16px
+reuse existing symbols as part of your icon, if it appears somewhere else (e.g. a bike), try to make groups for similar features
+think about an international meaning of the symbols (e.g. red cross is more populare then other health symbols)
+
+On using osmarender: 
+
+http://wiki.openstreetmap.org/wiki/Osmarender/Symbols
+http://wiki.openstreetmap.org/wiki/Osmarender/Rules
+Osmarender symbol set wit examples of compatible svg: http://svn.openstreetmap.org/applications/rendering/osmarender/stylesheets/symbols/
+
+Tips on OSM map icon design: 
+http://wiki.openstreetmap.org/wiki/Map_Icons/Map_Icons_Standards#2020_iconset:_templates_and_examples
+
+
+Main OSM icons page: 
+http://wiki.openstreetmap.org/wiki/Map_Icons
+
+
+An old pictograms project:
+http://wiki.openstreetmap.org/wiki/WikiProject_Pictograms
+http://wiki.openstreetmap.org/wiki/WikiProject_Pictograms/Working_List
+
+Icons to draw from: 
+http://wiki.openstreetmap.org/wiki/Project_of_the_week/2010/Jul_25
+http://mapicons.nicolasmollet.com/category/markers/health-education/?custom_color=ffffff&style=light
+http://www.sjjb.co.uk/mapicons/contactsheet
+
+Other icons of varying quality (open licensed unless indicated): 
+   Batchoy's icons: http://wiki.openstreetmap.org/wiki/User:Batchoy
+   UrSuS's icons (colorful, not diverse): http://wiki.openstreetmap.org/wiki/User:UrSuS
+   GRASS symbols (dated/low quality): http://grass.osgeo.org/wiki/IconSymbols
+   AIGA symbols (classic and ubiquitous in signage): http://www.aiga.org/symbol-signs/
+   GPS Drive symbols (dated/low quality): http://www.gpsdrive.de/development/map-icons/overview.en.shtml
+   OSGEO icon research  http://wiki.osgeo.org/wiki/OSGeo_map_symbol_set
+   US National Parks icons: http://www.nps.gov/hfc/carto/map-symbols.htm
+   ArcGIS icons: http://gis.nwcg.gov/gstop_symbol.html
+   Recreation symbols: http://www.blm.gov/nstc/mapstandards/intlsym.html
+   Topo symbols: http://egsc.usgs.gov/isb/pubs/booklets/symbols/topomapsymbols.pdf
+   homeland security symbols: http://www.fgdc.gov/HSWG/ref_pages/DownloadSymbols_ref.htm
+   The open icon library: http://openiconlibrary.sourceforge.net/
+   Nautical icons: http://commons.wikimedia.org/wiki/Category:Nautical_Chart_Icons
+
+Excellent and open-licensed sources for icons:
+   The outstanding Noun project: http://thenounproject.com/
+   The excellent SJJB set: http://www.sjjb.co.uk/mapicons/introduction at the repository: https://github.com/twain47/Open-SVG-Map-Icons
+
+All of the OSM images keyed as icon: http://wiki.openstreetmap.org/wiki/Category:Icon
+
+On the proposed "importance" tag as it relates to icon renderers: http://wiki.openstreetmap.org/wiki/Proposed_Features/Importance
+
+Notes on embedding support for svg in html5: 
+http://caniuse.com/svg-html5

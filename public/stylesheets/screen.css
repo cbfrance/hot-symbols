@@ -1,7 +1,3 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* line 17, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -67,11 +63,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 72, ../../compass/sass/screen.scss */
+/* line 70, ../../compass/sass/screen.scss */
 body {
   font-family: georgia, serif;
+  background: #ccc;
 }
-/* line 10, ../../compass/sass/screen.scss */
+/* line 7, ../../compass/sass/screen.scss */
 body h1, body h2 {
   font-size: 20px;
   float: left;
@@ -79,59 +76,60 @@ body h1, body h2 {
   width: 100%;
   padding: 10px;
 }
-/* line 18, ../../compass/sass/screen.scss */
+/* line 15, ../../compass/sass/screen.scss */
 body h2 {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #888;
 }
-/* line 22, ../../compass/sass/screen.scss */
+/* line 19, ../../compass/sass/screen.scss */
 body div.item {
   float: left;
   width: 200px;
   padding: 10px;
   margin: 10px;
   font-size: 11px;
-  border: 2px solid #c3c3c3;
+  border-top: 2px solid #c3c3c3;
   overflow: hidden;
   text-align: center;
+  background: #fff;
 }
-/* line 31, ../../compass/sass/screen.scss */
+/* line 29, ../../compass/sass/screen.scss */
 body div.item:hover {
   overflow: visible;
 }
-/* line 35, ../../compass/sass/screen.scss */
-body div.item img {
+/* line 33, ../../compass/sass/screen.scss */
+body div.item object {
   width: 30px;
   padding: 5px;
   margin: 0 auto;
   display: block;
 }
-/* line 41, ../../compass/sass/screen.scss */
+/* line 39, ../../compass/sass/screen.scss */
 body div.item a {
   float: left;
   clear: both;
   width: 100%;
 }
-/* line 48, ../../compass/sass/screen.scss */
+/* line 46, ../../compass/sass/screen.scss */
 body div.landuse {
   border-color: green;
 }
-/* line 51, ../../compass/sass/screen.scss */
+/* line 49, ../../compass/sass/screen.scss */
 body div.building {
   border-color: black;
 }
-/* line 55, ../../compass/sass/screen.scss */
+/* line 53, ../../compass/sass/screen.scss */
 body div.amenity {
   border-color: red;
 }
-/* line 59, ../../compass/sass/screen.scss */
+/* line 57, ../../compass/sass/screen.scss */
 body div.office {
   border-color: orange;
 }
-/* line 63, ../../compass/sass/screen.scss */
+/* line 61, ../../compass/sass/screen.scss */
 body div.shop {
   border-color: pink;
 }
-/* line 67, ../../compass/sass/screen.scss */
+/* line 65, ../../compass/sass/screen.scss */
 body div.sport {
   border-color: blue;
 }

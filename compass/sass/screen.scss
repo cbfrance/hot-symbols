@@ -1,12 +1,9 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
 
 @mixin layout($direction) {
   font-family: georgia, serif;
+  background: #ccc;
   h1, h2 {
     font-size: 20px;
     float: $direction;
@@ -16,7 +13,7 @@
   }
   
   h2 {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #888;
   }
 
   div.item {
@@ -25,14 +22,15 @@
     padding: 10px;
     margin: 10px;
     font-size: 11px;
-    border: 2px solid #c3c3c3;
+    border-top: 2px solid #c3c3c3;
     overflow: hidden;
     text-align: center;
+    background: #fff;
     &:hover {
       overflow: visible;
     }
     
-    img {
+    object {
       width: 30px;
       padding: 5px;
       margin: 0 auto;

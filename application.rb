@@ -25,7 +25,7 @@ get "/generate" do # create and read the generated file
         if (l =~ header_pattern)
           file << "<h2>"  + l.gsub(header_pattern, "").strip + "</h2>" + "\n"
         else
-          file << "<div class='item " + to_classnames(l) + "'>"  + "<img src='#{to_file_name(l)}' /> <a>" + l.strip + "</a></div>" + "\n"
+          file << "<div class='item " + to_classnames(l) + "'>"  + "<object data='icons/#{to_file_name(l)}.svg' type='image/svg+xml' width='50' height='50'></object>" + l.strip + "</a></div>" + "\n"
         end
       end
     end
