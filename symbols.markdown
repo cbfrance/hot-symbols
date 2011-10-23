@@ -1,4 +1,3 @@
-
 ### Structural indicators
 building:structure=confined_masonry
 building:structure=plastered

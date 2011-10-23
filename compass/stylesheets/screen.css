@@ -71,3 +71,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 h1 {
   font-size: 20px;
 }
+
+/* line 12, ../sass/screen.scss */
+div.building {
+  border: 1px solid black;
+}
+
+/* line 16, ../sass/screen.scss */
+div {
+  border: 1px solid pink;
+}
