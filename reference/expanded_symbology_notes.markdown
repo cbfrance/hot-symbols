@@ -866,3 +866,6 @@ On the proposed "importance" tag as it relates to icon renderers: http://wiki.op
 
 Notes on embedding support for svg in html5: 
 http://caniuse.com/svg-html5
+
+
+

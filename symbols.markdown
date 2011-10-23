@@ -37,8 +37,6 @@ amenity=pharmacy
 amenity=health_center
 amenity=hospital
 amenity=physician
-amenity=drugstore
-amenity=doctors
 
 ### Education amenities
 amenity=kindergarten
@@ -46,15 +44,13 @@ amenity=school
 amenity=college
 amenity=library
 amenity=university
-amenity=primary 
-amenity=secondary 
-amenity=informal 
+amenity=informal_education
 
 ### Civic amenities
-amenity= police
-amenity= post_office
-amenity= prison
-amenity= townhall
+amenity=police
+amenity=post_office
+amenity=prison
+amenity=townhall
 
 office=government
 office=newspaper
@@ -79,16 +75,17 @@ sport=basketball
 sport=volleyball
 sport=badmiton
 sport=tennis
-sport=equestrian
+sport=horse_racing
+
 landuse=landfill
 leisure=playground
 landuse=military
-man_made: tower
-bridge: yes
+man_made=tower
+bridge=yes
 
 ### Landuse
 landuse=farm
-landuse=meadowgrass
+landuse=meadow
 landuse=fishpond
 landuse=salt_field
 landuse=forest
@@ -97,3 +94,6 @@ landuse=family_forest
 landuse=peoples_plantations # (HTR)
 landuse=community_forest # (HKM)
 landuse=industrial_forest # (HTI)
+
+
+

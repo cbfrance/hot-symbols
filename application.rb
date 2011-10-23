@@ -8,7 +8,7 @@ def to_classnames(a_string)
 end
 
 def to_file_name(a_string)
-  a_string.strip.gsub("=", "_").gsub(":", "_")
+  a_string.strip.gsub(":", "_")
 end
 
 def to_title(a_string)
