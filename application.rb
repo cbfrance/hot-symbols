@@ -1,5 +1,6 @@
 require "sinatra"
 
+input_file="symbols.markdown"
 generated_file="views/generated.erb"
 header_pattern=/###/
 
@@ -14,12 +15,13 @@ end
 def to_title(a_string)
   
 end
-get "/generate" do # create and read the generated file
+
+get "/generate" do # recreate and read the generated file
   
   File.delete(generated_file)
   
   open(generated_file, "a+") do |file|
-    input = File.open("symbols.markdown", "r").readlines
+    input = File.open(input_file, "r").readlines
     input.each do |l|
       unless l.empty? or l =="\n"
         if (l =~ header_pattern)

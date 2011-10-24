@@ -1,42 +1,10 @@
-### Structural indicators
-building:structure=confined_masonry
-building:structure=plastered
-building:structure=reinforced_masonry
-building:structure=unreinforced_masonry
-building:roof=weed
-building:roof=asbestos
-building:roof=tile
-building:roof=wood
-building:roof=tin
-building:condition=excellent
-building:condition=good
-building:condition=bad
-building:condition=very bad
-building:wall=bamboo
-building:wall=half
-building:wall=stone
-building:wall=wood 
-building:foundation=earthen
-building:foundation=wooden
-building:foundation=cement
-building:foundation=tile
-building:levels=1
-building:levels=2
-building:levels=3
-building:levels=4
-building:levels=5
-building:levels=6
-building:levels=7
-building:levels=8
-building:levels=9
-building:levels=10
-building:levels=10+
 
 ### Health Amenities
 amenity=pharmacy
 amenity=health_center
 amenity=hospital
 amenity=physician
+amenity=childrens_hospital
 
 ### Education amenities
 amenity=kindergarten
@@ -50,12 +18,9 @@ amenity=informal_education
 amenity=police
 amenity=post_office
 amenity=prison
-amenity=townhall
-
 office=government
 office=newspaper
 office=ngo
-office=administrative 
 amenity=water_source
 amenity=restroom
 amenity=place_of_worship
@@ -66,9 +31,11 @@ amenity=complaint_center
 amenity=fuel
 amenity=cinema
 amenity=library
+amenity=restaurant
+
 shop=seafood
 man_made=water_well
-historic=tomb
+historic=yes
 waterway=dock
 sport=soccer
 sport=basketball
@@ -76,8 +43,6 @@ sport=volleyball
 sport=badmiton
 sport=tennis
 sport=horse_racing
-
-landuse=landfill
 leisure=playground
 landuse=military
 man_made=tower
@@ -89,11 +54,10 @@ landuse=meadow
 landuse=fishpond
 landuse=salt_field
 landuse=forest
+landuse=landfill
 landuse=conservation_forest
 landuse=family_forest
 landuse=peoples_plantations # (HTR)
 landuse=community_forest # (HKM)
 landuse=industrial_forest # (HTI)
-
-
 

@@ -63,7 +63,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 70, ../../compass/sass/screen.scss */
+/* line 72, ../../compass/sass/screen.scss */
 body {
   font-family: georgia, serif;
   background: #ccc;
@@ -98,38 +98,39 @@ body div.item:hover {
 }
 /* line 33, ../../compass/sass/screen.scss */
 body div.item object {
-  width: 30px;
+  width: 20px;
+  height: 20px;
   padding: 5px;
   margin: 0 auto;
   display: block;
 }
-/* line 39, ../../compass/sass/screen.scss */
+/* line 41, ../../compass/sass/screen.scss */
 body div.item a {
   float: left;
   clear: both;
   width: 100%;
 }
-/* line 46, ../../compass/sass/screen.scss */
+/* line 48, ../../compass/sass/screen.scss */
 body div.landuse {
   border-color: green;
 }
-/* line 49, ../../compass/sass/screen.scss */
+/* line 51, ../../compass/sass/screen.scss */
 body div.building {
   border-color: black;
 }
-/* line 53, ../../compass/sass/screen.scss */
+/* line 55, ../../compass/sass/screen.scss */
 body div.amenity {
   border-color: red;
 }
-/* line 57, ../../compass/sass/screen.scss */
+/* line 59, ../../compass/sass/screen.scss */
 body div.office {
   border-color: orange;
 }
-/* line 61, ../../compass/sass/screen.scss */
+/* line 63, ../../compass/sass/screen.scss */
 body div.shop {
   border-color: pink;
 }
-/* line 65, ../../compass/sass/screen.scss */
+/* line 67, ../../compass/sass/screen.scss */
 body div.sport {
   border-color: blue;
 }
