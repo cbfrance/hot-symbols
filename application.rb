@@ -36,6 +36,8 @@ def process_mediawiki(l)
   end
 end
 
+
+
 get "/generate" do # recreate and read the generated file
   
   File.delete(generated_file)
@@ -43,7 +45,11 @@ get "/generate" do # recreate and read the generated file
   open(generated_file, "a+") do |file|
     input = File.open(input_file, "r").readlines
     input.each do |l|
-      process_html(l)
+      if params[:process_mediawiki]
+        process_mediawiki(l)
+      else
+        process_html(l)
+      end
     end
   end
   

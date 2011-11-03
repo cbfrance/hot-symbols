@@ -1,0 +1,6 @@
+s3_access_key_id: <%= ENV['S3_KEY'] %>
+s3_secret_access_key: <%= ENV['S3_SECRET'] %>
+
+s3_bucket: hot-symbols
+s3_upload_files:
+  - public/icons/*
