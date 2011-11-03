@@ -63,7 +63,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 72, ../../compass/sass/screen.scss */
+/* line 83, ../../compass/sass/screen.scss */
 body {
   font-family: georgia, serif;
   background: #ccc;
@@ -77,10 +77,15 @@ body h1, body h2 {
   padding: 10px;
 }
 /* line 15, ../../compass/sass/screen.scss */
+body div.footer {
+  float: left;
+  clear: both;
+}
+/* line 20, ../../compass/sass/screen.scss */
 body h2 {
   border-bottom: 1px solid #888;
 }
-/* line 19, ../../compass/sass/screen.scss */
+/* line 24, ../../compass/sass/screen.scss */
 body div.item {
   float: left;
   width: 200px;
@@ -92,11 +97,11 @@ body div.item {
   text-align: center;
   background: #fff;
 }
-/* line 29, ../../compass/sass/screen.scss */
+/* line 34, ../../compass/sass/screen.scss */
 body div.item:hover {
   overflow: visible;
 }
-/* line 33, ../../compass/sass/screen.scss */
+/* line 38, ../../compass/sass/screen.scss */
 body div.item object {
   width: 20px;
   height: 20px;
@@ -104,33 +109,38 @@ body div.item object {
   margin: 0 auto;
   display: block;
 }
-/* line 41, ../../compass/sass/screen.scss */
+/* line 45, ../../compass/sass/screen.scss */
+body div.item object.large {
+  width: 50px;
+  height: 50px;
+}
+/* line 52, ../../compass/sass/screen.scss */
 body div.item a {
   float: left;
   clear: both;
   width: 100%;
 }
-/* line 48, ../../compass/sass/screen.scss */
+/* line 59, ../../compass/sass/screen.scss */
 body div.landuse {
   border-color: green;
 }
-/* line 51, ../../compass/sass/screen.scss */
+/* line 62, ../../compass/sass/screen.scss */
 body div.building {
   border-color: black;
 }
-/* line 55, ../../compass/sass/screen.scss */
+/* line 66, ../../compass/sass/screen.scss */
 body div.amenity {
   border-color: red;
 }
-/* line 59, ../../compass/sass/screen.scss */
+/* line 70, ../../compass/sass/screen.scss */
 body div.office {
   border-color: orange;
 }
-/* line 63, ../../compass/sass/screen.scss */
+/* line 74, ../../compass/sass/screen.scss */
 body div.shop {
   border-color: pink;
 }
-/* line 67, ../../compass/sass/screen.scss */
+/* line 78, ../../compass/sass/screen.scss */
 body div.sport {
   border-color: blue;
 }

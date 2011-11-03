@@ -32,7 +32,6 @@ amenity=fuel
 amenity=cinema
 amenity=library
 amenity=restaurant
-
 shop=seafood
 man_made=water_well
 historic=yes
@@ -44,9 +43,7 @@ sport=badmiton
 sport=tennis
 sport=horse_racing
 leisure=playground
-landuse=military
 man_made=tower
-bridge=yes
 
 ### Landuse
 landuse=farm
@@ -55,9 +52,16 @@ landuse=fishpond
 landuse=salt_field
 landuse=forest
 landuse=landfill
+landuse=military
 landuse=conservation_forest
 landuse=family_forest
-landuse=peoples_plantations # (HTR)
-landuse=community_forest # (HKM)
-landuse=industrial_forest # (HTI)
+landuse=peoples_plantations
+landuse=community_forest
+landuse=industrial_forest
 
+### To be done
+maternity 
+non-industrial–farming
+fuel-for-motos
+boat-dock
+livestock
