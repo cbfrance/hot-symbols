@@ -29,9 +29,9 @@ end
 def process_mediawiki(l)
   unless l.empty? or l =="\n"
     if (l =~ header_pattern)
-      file << "<h2>"  + l.gsub(header_pattern, "").strip + "</h2>" + "\n"
+      # skip
     else
-      file << "<div class='item " + to_classnames(l) + "'>"  + "<object data='icons/#{to_file_name(l)}.svg' type='image/svg+xml' width='50' height='50'></object>" + "<object class='large' data='icons/#{to_file_name(l)}.svg' type='image/svg+xml' width='50' height='50'></object>" + l.strip + "</a></div>" + "\n <span class='attribution'>attribution</span>"
+      file << to_classnames(l) + "[['icons/#{to_file_name(l)}.svg' width='50' height='50']]" + "\n <span class='attribution'>attribution</span>"
     end
   end
 end
