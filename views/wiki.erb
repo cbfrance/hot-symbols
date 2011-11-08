@@ -1,0 +1,27 @@
+
+<!-- ===================================================================== -->
+<!-- = this doesn't work because mediawiki requires you upload the file! = -->
+<!-- ===================================================================== -->
+
+{| class="wikitable" 
+|-
+! Description
+! 16x16 
+! 32x32 
+! Comments 
+! license/credit
+
+<% @out.each do |i| %>
+  <% if (i =~ HEADER_PATTERN) %>
+  
+  <% else %>
+      |-
+      | <%= to_file_name(i) %> 
+      | [[Image:<%= ASSETS_URL+to_file_name(i) %>|16px]] 
+      | [[Image:<%= ASSETS_URL+to_file_name(i) %>|32px]] 
+      | 
+      | CC-BY
+  <% end %>
+<% end %>
+|- 
+}

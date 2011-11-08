@@ -1,0 +1,35 @@
+
+
+<table>
+  <thead>
+    <th class="name">Name</th>
+    <th>Symbol: 16px</th>
+    <th>Symbol: 32px</th>
+  </thead>
+  
+  <tbody>  
+    <% @out.each do |i|  %>
+      <% if i == "\n" %> 
+      
+      <% elsif (i =~ HEADER_PATTERN) %>
+        <tr class="title">
+          <td class="header"><h3><%= i.gsub(HEADER_PATTERN, "") %></h3></td>
+          <td></td>
+          <td></td>
+        </tr>
+      <% else %>
+        <tr>
+          <td class="name"><%= to_file_name(i) %></td>
+          <td><img src="<%= ASSETS_URL+to_file_name(i) %>.svg" width="16px"/></td>
+          <td><img src="<%= ASSETS_URL+to_file_name(i) %>.svg" width="32px"/></td>
+        </tr>
+      <% end %>
+    <% end %>
+  </tbody>  
+</table>
+
+
+<!-- if (i =~ header_pattern)
+  @out << "<h2>"  + i.gsub(header_pattern, "").strip + "</h2>" + "\n"
+else
+  @out << "<div class='item " + to_classnames(i) + "'>"  + "<object data='#{ASSETS_URL}#{to_file_name(i)}.svg' type='image/svg+xml' width='50' height='50'></object>" + "<object class='large' data='#{ASSETS_URL}#{to_file_name(i)}.svg' type='image/svg+xml' width='50' height='50'></object>" + i.strip + "</a> <span class='attribution'>attribution</span> </div>" -->

@@ -63,13 +63,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 86, ../../compass/sass/screen.scss */
+/*========================================================= mix it in! */
+/* line 118, ../../compass/sass/screen.scss */
 body {
   font-family: georgia, serif;
   background: #ccc;
 }
 /* line 7, ../../compass/sass/screen.scss */
-body h1, body h2 {
+body h1, body h2, body h3 {
   font-size: 20px;
   float: left;
   clear: both;
@@ -129,23 +130,56 @@ body div.item a {
 body div.landuse {
   border-color: green;
 }
-/* line 65, ../../compass/sass/screen.scss */
+/* line 66, ../../compass/sass/screen.scss */
 body div.building {
   border-color: black;
 }
-/* line 69, ../../compass/sass/screen.scss */
+/* line 70, ../../compass/sass/screen.scss */
 body div.amenity {
   border-color: red;
 }
-/* line 73, ../../compass/sass/screen.scss */
+/* line 74, ../../compass/sass/screen.scss */
 body div.office {
   border-color: orange;
 }
-/* line 77, ../../compass/sass/screen.scss */
+/* line 78, ../../compass/sass/screen.scss */
 body div.shop {
   border-color: pink;
 }
-/* line 81, ../../compass/sass/screen.scss */
+/* line 82, ../../compass/sass/screen.scss */
 body div.sport {
   border-color: blue;
+}
+/* line 87, ../../compass/sass/screen.scss */
+body table h3 {
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+/* line 92, ../../compass/sass/screen.scss */
+body table th {
+  padding: 10px;
+}
+/* line 95, ../../compass/sass/screen.scss */
+body table tr.title {
+  border-top: 2px solid #000;
+}
+/* line 98, ../../compass/sass/screen.scss */
+body table tr {
+  border-bottom: 1px solid #888;
+}
+/* line 100, ../../compass/sass/screen.scss */
+body table tr td {
+  padding: 5px;
+  text-align: center;
+}
+/* line 104, ../../compass/sass/screen.scss */
+body table tr td.name, body table tr td.header, body table tr th.name {
+  text-align: right;
+}
+/* line 109, ../../compass/sass/screen.scss */
+body .footer {
+  margin-top: 30px;
+  border-top: 2px solid #000;
+  padding: 10px;
 }

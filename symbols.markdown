@@ -38,7 +38,6 @@ historic=yes
 waterway=dock
 sport=soccer
 sport=basketball
-sport=volleyball
 sport=badmiton
 sport=tennis
 sport=horse_racing
@@ -60,8 +59,8 @@ landuse=community_forest
 landuse=industrial_forest
 
 ### To be done
-maternity 
-non-industrial–farming
-fuel-for-motos
-boat-dock
-livestock
+maternity hospital 
+non-industrial–farming (water buffalo?)
+fuel for motos (show the small liter bottles of gas)
+boat-dock (show only the boat instead of a person)
+livestock (show farmer raising livestock )
