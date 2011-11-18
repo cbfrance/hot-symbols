@@ -64,12 +64,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /*========================================================= mix it in! */
-/* line 118, ../../compass/sass/screen.scss */
+/* line 124, ../../compass/sass/screen.scss */
 body {
   font-family: georgia, serif;
-  background: #ccc;
 }
-/* line 7, ../../compass/sass/screen.scss */
+/* line 6, ../../compass/sass/screen.scss */
 body h1, body h2, body h3 {
   font-size: 20px;
   float: left;
@@ -77,21 +76,29 @@ body h1, body h2, body h3 {
   width: 100%;
   padding: 10px;
 }
-/* line 15, ../../compass/sass/screen.scss */
+/* line 13, ../../compass/sass/screen.scss */
+body h1 {
+  font-family: times;
+  font-size: 50px;
+}
+/* line 17, ../../compass/sass/screen.scss */
 body div.footer {
   float: left;
   clear: both;
+  padding: 50px;
+  font-weight: 100;
+  background-color: #f8f8f8;
 }
-/* line 19, ../../compass/sass/screen.scss */
+/* line 24, ../../compass/sass/screen.scss */
 body .attribution {
   font-size: 8px;
   color: #c3c3c3;
 }
-/* line 23, ../../compass/sass/screen.scss */
+/* line 28, ../../compass/sass/screen.scss */
 body h2 {
   border-bottom: 1px solid #888;
 }
-/* line 27, ../../compass/sass/screen.scss */
+/* line 32, ../../compass/sass/screen.scss */
 body div.item {
   float: left;
   width: 200px;
@@ -103,11 +110,11 @@ body div.item {
   text-align: center;
   background: #fff;
 }
-/* line 37, ../../compass/sass/screen.scss */
+/* line 42, ../../compass/sass/screen.scss */
 body div.item:hover {
   overflow: visible;
 }
-/* line 41, ../../compass/sass/screen.scss */
+/* line 46, ../../compass/sass/screen.scss */
 body div.item object {
   width: 20px;
   height: 20px;
@@ -115,69 +122,70 @@ body div.item object {
   margin: 0 auto;
   display: block;
 }
-/* line 48, ../../compass/sass/screen.scss */
+/* line 53, ../../compass/sass/screen.scss */
 body div.item object.large {
   width: 50px;
   height: 50px;
 }
-/* line 55, ../../compass/sass/screen.scss */
+/* line 60, ../../compass/sass/screen.scss */
 body div.item a {
   float: left;
   clear: both;
   width: 100%;
 }
-/* line 62, ../../compass/sass/screen.scss */
+/* line 67, ../../compass/sass/screen.scss */
 body div.landuse {
   border-color: green;
 }
-/* line 66, ../../compass/sass/screen.scss */
+/* line 71, ../../compass/sass/screen.scss */
 body div.building {
   border-color: black;
 }
-/* line 70, ../../compass/sass/screen.scss */
+/* line 75, ../../compass/sass/screen.scss */
 body div.amenity {
   border-color: red;
 }
-/* line 74, ../../compass/sass/screen.scss */
+/* line 79, ../../compass/sass/screen.scss */
 body div.office {
   border-color: orange;
 }
-/* line 78, ../../compass/sass/screen.scss */
+/* line 83, ../../compass/sass/screen.scss */
 body div.shop {
   border-color: pink;
 }
-/* line 82, ../../compass/sass/screen.scss */
+/* line 87, ../../compass/sass/screen.scss */
 body div.sport {
   border-color: blue;
 }
-/* line 87, ../../compass/sass/screen.scss */
+/* line 92, ../../compass/sass/screen.scss */
 body table h3 {
   font-weight: bold;
   padding: 0;
   margin: 0;
 }
-/* line 92, ../../compass/sass/screen.scss */
+/* line 97, ../../compass/sass/screen.scss */
 body table th {
   padding: 10px;
 }
-/* line 95, ../../compass/sass/screen.scss */
+/* line 100, ../../compass/sass/screen.scss */
 body table tr.title {
   border-top: 2px solid #000;
 }
-/* line 98, ../../compass/sass/screen.scss */
+/* line 103, ../../compass/sass/screen.scss */
 body table tr {
   border-bottom: 1px solid #888;
 }
-/* line 100, ../../compass/sass/screen.scss */
+/* line 105, ../../compass/sass/screen.scss */
 body table tr td {
   padding: 5px;
   text-align: center;
 }
-/* line 104, ../../compass/sass/screen.scss */
+/* line 109, ../../compass/sass/screen.scss */
 body table tr td.name, body table tr td.header, body table tr th.name {
   text-align: right;
+  max-width: 400px;
 }
-/* line 109, ../../compass/sass/screen.scss */
+/* line 115, ../../compass/sass/screen.scss */
 body .footer {
   margin-top: 30px;
   border-top: 2px solid #000;

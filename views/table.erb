@@ -9,6 +9,7 @@
   
   <tbody>  
     <% @out.each do |i|  %>
+      
       <% if i == "\n" %> 
       
       <% elsif (i =~ HEADER_PATTERN) %>
@@ -19,9 +20,11 @@
         </tr>
       <% else %>
         <tr>
-          <td class="name"><%= to_file_name(i) %></td>
-          <td><img src="<%= ASSETS_URL+to_file_name(i) %>.svg" width="16px"/></td>
-          <td><img src="<%= ASSETS_URL+to_file_name(i) %>.svg" width="32px"/></td>
+          
+          <td class="name"><%= i %></td>
+          <% file = to_file_name(i) %>
+          <td><img src="<%= ASSETS_URL+file %>.svg" width="16px"/></td>
+          <td><img src="<%= ASSETS_URL+file %>.svg" width="32px"/></td>
         </tr>
       <% end %>
     <% end %>
