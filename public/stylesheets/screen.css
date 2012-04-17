@@ -1,4 +1,4 @@
-/* line 17, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,51 +20,51 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, ../../../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
 
 /*========================================================= mix it in! */
-/* line 124, ../../compass/sass/screen.scss */
+/* line 126, ../../compass/sass/screen.scss */
 body {
   font-family: georgia, serif;
 }
@@ -157,35 +157,40 @@ body div.shop {
 body div.sport {
   border-color: blue;
 }
-/* line 92, ../../compass/sass/screen.scss */
+/* line 91, ../../compass/sass/screen.scss */
+body table {
+  float: left;
+  clear: both;
+}
+/* line 94, ../../compass/sass/screen.scss */
 body table h3 {
   font-weight: bold;
   padding: 0;
   margin: 0;
 }
-/* line 97, ../../compass/sass/screen.scss */
+/* line 99, ../../compass/sass/screen.scss */
 body table th {
   padding: 10px;
 }
-/* line 100, ../../compass/sass/screen.scss */
+/* line 102, ../../compass/sass/screen.scss */
 body table tr.title {
   border-top: 2px solid #000;
 }
-/* line 103, ../../compass/sass/screen.scss */
+/* line 105, ../../compass/sass/screen.scss */
 body table tr {
   border-bottom: 1px solid #888;
 }
-/* line 105, ../../compass/sass/screen.scss */
+/* line 107, ../../compass/sass/screen.scss */
 body table tr td {
   padding: 5px;
   text-align: center;
 }
-/* line 109, ../../compass/sass/screen.scss */
+/* line 111, ../../compass/sass/screen.scss */
 body table tr td.name, body table tr td.header, body table tr th.name {
   text-align: right;
   max-width: 400px;
 }
-/* line 115, ../../compass/sass/screen.scss */
+/* line 117, ../../compass/sass/screen.scss */
 body .footer {
   margin-top: 30px;
   border-top: 2px solid #000;

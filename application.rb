@@ -29,6 +29,6 @@ get "/generate/:format" do
   end
 end
 
-get "/" do # read the generated file
-  erb :table
+get "/" do
+  redirect "/generate/table"
 end
