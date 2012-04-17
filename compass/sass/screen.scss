@@ -3,12 +3,13 @@
 
 @mixin layout($direction) {
   font-family: georgia, serif;
+  padding: 10px;
   h1, h2, h3 {
     font-size: 20px;
     float: $direction;
     clear: both;
-    width: 100%;
-    padding: 10px;
+    width: 90%;
+    padding: 10px 0;
   }
   h1 {
     font-family: times;
